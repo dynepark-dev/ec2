@@ -1,0 +1,35 @@
+.WebtoonList {
+    background-color: #f5f5f7;
+    color: #d6d6d6;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    color: black;
+    text-align: center;
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 8px;
+        li {
+            cursor: pointer;
+            width: 15%;
+        }
+        img {
+            width: 100%;
+            vertical-align: middle;
+        }
+        figcaption {
+            font-size: 0.9em;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .episode {
+            font-size: 0.8em;
+        }
+    }
+}
